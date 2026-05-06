@@ -1,6 +1,8 @@
 package com.msa4java.edu;
 
-public class HiJava {
+import com.msa4java.edu.oop.AccessModifier;
+
+public class HiJava extends AccessModifier{
     public static void main(String[] args) {
         System.out.println(1);
         System.out.print(1);
@@ -10,5 +12,6 @@ public class HiJava {
         int sum = 54;
 
         System.out.printf("안녕 %s : %d", str, sum);
-}
+
     }
+}
