@@ -1,0 +1,20 @@
+package com.msa4java.edu.oop.abstractclass;
+
+public abstract class Mammal {
+    protected String name;
+    protected String residence;
+
+    public Mammal(String name, String residence) {
+        this.name = name;
+        this.residence = residence;
+    }
+
+    public void breath() {
+        System.out.println(this.name + " 폐호흡 합니다.");
+    }
+
+    // 추상메소드 : 반드시 자식 클래스에서 오버라이드 해서 사용해야 한다. (강제성 부여)
+    public abstract void residence(); // 구현부에는 아무것도 적지 않음
+    // 자식쪽에서는 무조건 residence()를 구현해야함
+
+}

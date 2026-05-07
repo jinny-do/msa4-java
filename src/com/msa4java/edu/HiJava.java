@@ -1,6 +1,6 @@
 package com.msa4java.edu;
 
-import com.msa4java.edu.oop.AccessModifier;
+import com.msa4java.edu.oop.basic.AccessModifier;
 
 public class HiJava extends AccessModifier{
     public static void main(String[] args) {
